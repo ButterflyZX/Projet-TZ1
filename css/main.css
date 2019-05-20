@@ -1,0 +1,1686 @@
+html * {
+    background: white;
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+a {
+    color: #333333;
+}
+
+a:hover {
+    color: #09ABE4;
+}
+
+        
+/* ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ */
+
+.eyeicon {
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    left: 255px;
+    top: 17px;
+}
+.smootheyetext {
+    position: absolute;
+    width: 185px;
+    height: 15px;
+    left: 281px;
+    top: 21px;
+   
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: black;
+}
+
+.separator {
+    position: absolute;
+    width: 18px;
+    height: 0px;
+    left: 462px;
+    top: 27px;
+
+    opacity: 0.3;
+    border: 1px solid #828282;
+    transform: rotate(90deg);
+}
+
+/* СРАВНЕНИЕ ТОВАРОВ*/
+
+.thing1 {
+    position: absolute;
+    width: 18px;
+    height: 0px;
+    left: 496px;
+    top: 15.45px;
+    background: #828282;  
+}
+
+.thingtext {
+     position: absolute;
+    width: 185px;
+    height: 15px;
+    left: 512px;
+    top: 21px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.separator1 {
+    position: absolute;
+    width: 18px;
+    height: 0px;
+    left: 653px;
+    top: 27px;
+
+    opacity: 0.3;
+    border: 1px solid #828282;
+    transform: rotate(90deg);
+}
+
+/* СОЦСЕТИ*/
+
+.instagram {
+    position: absolute;
+    left: 683px;
+    top: 22px;
+}
+
+.twitter {
+    position: absolute;
+    left: 707px;
+    top: 22px;
+}
+
+.VK {
+    position: absolute;
+    left: 734px;
+    top: 22px;
+}
+
+/* ПРАВЫЙ БОКС*/
+
+.payment {
+    position: absolute;
+    height: 15px;
+    left: 1376px;
+    top: 21px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    
+}
+
+.separator2 {
+    position: absolute;
+    width: 18px;
+    height: 0px;
+    left: 1430px;
+    top: 27px;
+
+    opacity: 0.3;
+    border: 1px solid #828282;
+    transform: rotate(90deg);
+}
+
+.shipment {
+    position: absolute;
+    width: 52px;
+    height: 15px;
+    left: 1468px;
+    top: 21px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+.separator3 {
+    position: absolute;
+    width: 18px;
+    height: 0px;
+    left: 1535px;
+    top: 27px;
+
+    opacity: 0.3;
+    border: 1px solid #828282;
+    transform: rotate(90deg);
+}
+
+.refund {
+    position: absolute;
+    width: 92px;
+    height: 15px;
+    left: 1571px;
+    top: 21px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+/* ЛОГОТИП */
+
+.logo2 {
+    position: absolute;
+    width: 216px;
+    height: 54px;
+    left: 255px;
+    top: 95px;
+}
+
+.logo3 {
+    display: none;
+}
+
+/* ТЕЛЕФОН */
+
+.phonenumber {
+    position: absolute;
+    width: 177px;
+    height: 29px;
+    left: 585px;
+    top: 105px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.searchbox {
+    position: absolute;
+    width: 300px;
+    height: 0px;
+    left: 975px;
+    top: 110px;
+}
+
+.searchbox input {
+    border: none;
+    width: 290px;
+    outline: none;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.searchbox button {
+    position: absolute;
+    top: 0px;
+    left: 275px;
+    border: none;
+    background: none;
+    width: 16;
+    height: 16;
+    cursor: pointer;
+}
+
+.searchline {
+    position: absolute;
+    width: 292px;
+    height: 0px;
+    left: 975px;
+    top: 135px;
+
+    border: 1px solid #E3E3E3;
+}
+
+/* АВТОРИЗАЦИЯ и КОРЗИНА */
+
+.headicon {
+    position: absolute;
+    top: 110.24px;
+    left: 1364.69px;
+    height: 14px;
+
+}
+
+
+.authorization {
+    position: absolute;
+    width: 120px;
+    height: 17px;
+    left: 1393px;
+    top: 113px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.separator4 {
+    position: absolute;
+    width: 23px;
+    height: 0px;
+    left: 1525px;
+    top: 119px;
+
+    border: 1px solid #DCDCDC;
+    transform: rotate(90deg);
+}
+
+.bucket {
+    position: absolute;
+    width: 18px;
+    height: 21px;
+    left: 1575px;
+    top: 111px;
+
+    background: linear-gradient(237.64deg, rgba(40, 38, 150, 0.96) -22.71%, #09ABE4 118.52%);
+}
+
+.buckettext {
+    position: absolute;
+    width: 55px;
+    height: 17px;
+    left: 1606px;
+    right: 256px;
+    top: 113px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/* НАВИГАЦИЯ ПО САЙТУ */
+
+.navbar {
+    position: absolute;
+    width: 1495px;
+    height: 20px;
+    left: 255px;
+    top: 210px;
+}
+.navi a {
+    display: inline;
+    margin-right: 94.2px;
+}
+
+
+.navi li { 
+    display: inline;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+
+/* СЛАЙДЕР */
+.swiper-container {
+    top: 281px;
+    width: 1405px;
+    height: 548px;
+    }
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+    display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+    }
+.swiper-button-next {
+    background: none;
+    
+}
+.swiper-button-prev {
+    background: none;
+}
+
+.slidetext {
+    position: absolute;
+    width: 450px;
+    height: 87px;
+    left: 90px;
+    top: 161px;
+    background: none;
+    font-family: Lato;
+    font-style: normal;
+    display: flex;
+    text-align: left;
+    color: #FFFFFF;
+    
+}
+
+.slidetext p {
+    background: none;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 43px;
+    letter-spacing: 0.05em;
+    
+}
+
+.slidetext span {
+    position: absolute;
+    background: none;
+    width: 300px;
+    top: 106px;
+    font-style: normal;
+    font-weight: 0;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+}
+
+.slidetext button {
+    position: absolute;
+    top: 181px;
+    width: 230px;
+    height: 50px;
+    border: 0.75px solid #FFFFFF;
+    box-sizing: border-box;
+    background: none;
+}
+
+.slidetext button a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: none;
+    color: #FFFFFF;
+    
+}
+.slidetext button a:hover {
+    color: #09ABE4;
+}
+
+/* ПОДБОР ОЧКОВ */
+
+.chooseglaces {
+    position: absolute;
+    width: 1410px;
+    height: 340px;
+    left: 255px;
+    top: 929px;
+    background: url(/img/bodybox/chooseglaces/pattern.png), linear-gradient(192.28deg, rgba(40, 38, 150, 0.98) 11.56%, #09ABE4 133.02%);
+    }
+
+.chooseglaces p {
+    position: absolute;
+    width: 250px;
+    height: 36px;
+    left: 90px;
+    top: 70px;
+    background: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #ffffff;
+
+}
+
+.chooseglaces span {
+    position: absolute;
+    width: 561px;
+    height: 52px;
+    left: 91px;
+    top: 145px;
+    background: none;
+    
+    font-weight: 0;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+}
+
+.glacesbutton {
+    position: absolute;
+    top: 220px;
+    left: 91px;
+    width: 230px;
+    height: 50px;
+    border: 0.75px solid #FFFFFF;
+    box-sizing: border-box;
+    background: none;
+}
+
+.glacesbutton a {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: none;
+    color: #FFFFFF;
+}
+
+.glacesbutton a:hover {
+    color: #09ABE4;
+}
+
+.chooseglaces img {
+    position: absolute;
+    top: 99px;
+    left: 861px;
+    background: none;
+}
+
+
+/* СЛАЙДЕР ПОПУЛЯРНЫХ ТОВАРОВ */
+
+.sliderpopularthings {
+    position: absolute;
+    width: 1410px;
+    height: 551px;
+    top: 1369px;
+    left: 255px;
+}
+
+.sliderpopularthings p {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 310px;
+    height: 36px;
+    background: none;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #333333;
+    
+}
+
+.davidoffurban {
+    position: absolute;
+    width: 330px;
+    height: 443px;
+    top: 76px;
+}
+
+.new1 {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: 20px;
+    background: #09ABE4;
+    
+}
+
+.new1 p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: none;
+    color: #FFFFFF;
+    left: 23%;
+    right: 22%;
+    top: 30%;
+    bottom: 30%;
+}
+
+
+.thingpicture {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    background: #F2F2F2;
+}
+
+.thingpicture img {
+    position: absolute;
+    background: none;
+    top: 37px;
+    left: 38px;
+}
+
+.thingname p {
+    position: absolute;
+    width: 309px;
+    height: 24px;
+    left: 10px;
+    top: 342px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.thingcost {
+    position: absolute;
+    top: 400px;
+    left: 20px;
+}
+
+.thingcost p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #09ABE4;
+}
+
+.thingcost span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    background: none;
+    text-decoration-line: line-through;
+    color: #828282;
+}
+
+.statthing {
+    position: absolute;
+    top: 400px;
+    left: 140px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #09ABE4;
+    box-sizing: border-box;
+    
+}
+
+.statthing img {
+    position: absolute;
+    top: 11px;
+    left: 11px;
+    
+}
+
+
+.buttonthing {
+    position: absolute;
+    height: 40px;
+    width: 130px;
+    top: 400px;
+    left: 185px;
+    border: 1px solid #09ABE4;
+    box-sizing: border-box;
+    font-size: 17px;
+    text-transform: uppercase;
+    background: #ffffff;
+}
+
+.buttonthing a {
+    color: #09ABE4;
+}
+.buttonthing:hover {
+    background: #09ABE4;
+    color: #ffffff;
+    
+}
+.buttonthing a:hover {
+    background: #09ABE4;
+    color: #ffffff;
+}
+
+.acuvue {
+    position: absolute;
+    width: 330px;
+    height: 443px;
+    top: 76px;
+    left: 360px;
+}
+
+.thingpicture2 {
+    position: absolute;
+    width: 330px;
+    height: 330px;
+    background: #F2F2F2;
+}
+
+.thingpicture2 img {
+    position: absolute;
+    background: none;
+    top: 116px;
+    left: 24px;
+}
+
+
+.bulgari {
+    position: absolute;
+    width: 330px;
+    height: 443px;
+    top: 76px;
+    left: 718px;
+}
+
+.davidoffurban2 {
+    position: absolute;
+    width: 330px;
+    height: 443px;
+    top: 76px;
+    left: 1075px;
+}
+
+
+
+/* ==============АКЦИИ========== */
+.promo {
+    position: absolute;
+    display: block;
+    width: 50px;
+    top: 2031px;
+    left: 255px;
+}
+
+.promohead  {
+    background: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #333333;
+}
+
+.promohead a {
+    width: 100px;
+    height: 36px;
+    position: absolute;
+    left: 1320px;
+    top: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #09ABE4;
+}
+
+.promoaction1 {
+    position: absolute;
+    width: 690px;
+    height: 440px;
+    top: 70px;
+}
+
+
+.promoname {
+    position: absolute;
+    top: 286px;
+    width: 690px;
+    height: 154px;
+    border: 3px;
+    background: linear-gradient(202.4deg, rgba(40, 38, 150, 0.85) 46.3%, #09ABE4 121.3%);    
+}
+
+.promoname p {
+    position: absolute;
+    width: 356px;
+    height: 29px;
+    left: 50px;
+    top: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    background: none;
+    color: #FFFFFF;
+}
+
+.promoname span {
+    position: absolute;
+    width: 566.32px;
+    height: 25.2px;
+    left: 0px;
+    top: 42px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 22px;
+    background: none;
+    color: #FFFFFF;
+}
+
+.promoname a {
+    position: absolute;
+    width: 93px;
+    height: 17px;
+    left: 0px;
+    top: 90px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    background: none;
+    color: #FFFFFF;
+}
+
+.promoname a:hover {
+    color: #09ABE4;
+}
+
+.promoaction2 {
+    position: absolute;
+    width: 690px;
+    height: 440px;
+    top: 70px;
+    left: 720px;
+}
+
+.promoname2 {
+    position: absolute;
+    left: 0px;
+    top: 286px;
+    width: 690px;
+    height: 154px;
+    border: 3px;
+    background: linear-gradient(202.4deg, rgba(40, 38, 150, 0.85) 46.3%, #09ABE4 121.3%);    
+}
+
+.promoname2 p {
+    position: absolute;
+    width: 395px;
+    height: 29px;
+    left: 50px;
+    top: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    background: none;
+    color: #FFFFFF;
+}
+
+.promoname2 span {
+    position: absolute;
+    width: 566.32px;
+    height: 25.2px;
+    left: 0px;
+    top: 42px;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 22px;
+    background: none;
+    color: #FFFFFF;
+}
+
+.promoname2 a {
+    position: absolute;
+    width: 93px;
+    height: 17px;
+    left: 0px;
+    top: 90px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    background: none;
+    color: #FFFFFF;
+}
+
+.promoname2 a:hover {
+    color: #09ABE4;
+}
+
+
+/* О КОМПАНИИ */
+
+.aboutcompany {
+    position: absolute;
+    width: 706px;
+    height: 580px;
+    left: 253px;
+    top: 2647px;
+    background: url(/img/bodybox/aboutcompany/bg.png), linear-gradient(201.19deg, rgba(40, 38, 150, 0.98) 24.1%, #09ABE4 123.85%) ;
+}
+
+.aboutcompany h4 {
+    position: absolute;
+    width: 202px;
+    height: 47.26px;
+    left: 50px;
+    top: 60px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    background: none;
+    color: #FFFFFF;
+}
+
+.aboutcompany p {
+    position: absolute;
+    width: 603px;
+    height: 388.81px;
+    left: 50px;
+    top: 134px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    background: none;
+    color: #FFFFFF;
+}
+
+.aboutcompany a {
+    position: absolute;
+    width: 93px;
+    height: 17px;
+    left: 50px;
+    top: 523px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    background: none;
+    color: #FFFFFF;
+}
+
+.aboutcompany a:hover {
+    color: #09ABE4;
+}
+
+.aboutimage {
+    position: absolute;
+    width: 706px;
+    height: 580px;
+    left: 959px;
+    top: 2647px;
+}
+
+
+/* ПОДВАЛ */
+
+.footerlogo {
+    position: absolute;
+    width: 209px;
+    height: 52px;
+    left: 256px;
+    top: 3327px;
+}
+
+.footernavbar {
+    position: absolute;
+    width: 1200px;
+    height: 20px;
+    left: 625px;
+    top: 3344.5px;
+}
+
+.footernavi a {
+    display: inline;
+}
+
+.footernavi li {
+    display: inline;
+    margin-right: 42px;
+}
+
+.companyinfo {
+    position: absolute;
+    width: 189px;
+    height: 21px;
+    left: 256px;
+    top: 3431px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.useraccepment {
+    position: absolute;
+    width: 610px;
+    height: 21px;
+    left: 256px;
+    top: 3654px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 150px;
+}
+
+.useraccepment a {
+    color: #13107A;
+}
+
+.shops {
+    position: absolute;
+    width: 271px;
+    height: 38px;
+    left: 627px;
+    top: 3431px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.shopname {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #13107A;
+    margin-bottom: 28px;
+}
+
+.contactinfo {
+    position: absolute;
+    width: 240px;
+    height: 18px;
+    left: 1011px;
+    top: 3431px;
+}
+
+.contacttag {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #13107A;
+    margin-bottom: 15px;
+}
+
+.phonenumber2 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.emailinfo {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: underline;
+}
+
+.emailinfo a {
+    color: #13107A;
+}
+
+.socialnetworks {
+    position: absolute;
+    width: 180px;
+    height: 18px;
+    left: 1011px;
+    top: 3560px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.instagramicon {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 1131px;
+    top: 3564px;
+}
+
+.twittericon {
+    position: absolute;
+    width: 15px;
+    height: 12px;
+    left: 1155px;
+    top: 3564px;
+}
+
+.vkicon {
+    position: absolute;
+    width: 22px;
+    height: 12px;
+    left: 1182px;
+    top: 3564px;
+}
+
+.news {
+    position: absolute;
+    width: 335px;
+    height: 41px;
+    left: 1325px;
+    top: 3431px;
+}
+
+.news a {
+    color: #13107A;
+    text-decoration: underline;
+}
+
+.agittext {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.emailform input {
+    border: none;
+    background-color: #F7F7F7;
+    width: 274px;
+    height: 40px;
+    outline: none;
+    
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.emailform button {
+    position: absolute;
+    top: 70px;
+    left: 275px;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(228.78deg, rgba(40, 38, 150, 0.96) 0%, #09ABE4 100%);
+    cursor: pointer;
+}
+
+.emailform button img {
+    background: none;
+}
+.oferta {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.acceptpay {
+    position: absolute;
+    top: 285px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.visapay {
+    position: absolute;
+    top: 281px;
+    left: 150px;
+}
+
+.mastercard {
+    position: absolute;
+    top: 281px;
+    left: 190px;
+}
+
+.maestro {
+    position: absolute;
+    top: 281px;
+    left: 230px;
+}
+
+.mir {
+    position: absolute;
+    width: 40.64px;
+    height: 25px;
+    background: #F8F8F8;
+    border-radius: 1px;
+    top: 281px;
+    left: 276px;
+    
+}
+
+.imgcenter {
+    display: block;
+    margin: auto;
+    margin-top: 7px;
+}
+
+
+
+
+/* АДАПТАЦИЯ */
+
+@media (max-width:1260px) {
+    
+    html {
+        position: relative;
+        left: 0px;
+        top: 0px;
+        width: 320px;
+        text-align: center;
+        
+    }
+    
+    body {width: 320px;}
+    
+    .header {
+        width: 320px;
+        }
+    
+    .headerline, .phonenumber, .authorization, .buckettext {
+        display: none;
+    }
+/* АДАПТАЦИЯ ТЕЛА */
+    
+    
+    .header, .bodybox, .footer {
+        margin: 0px;
+        padding: 0px;
+        width: 320px;
+        position: relative;
+        display: block;
+        background: none;
+    }
+    
+    .navbar {
+        display: none;
+    }
+    
+    /* АДАПТАЦИЯ ШАПКИ */
+    
+    .logo img {
+        display: block;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        left: -240px;
+        top: -66px;
+    }
+    
+    
+    .searchbox {
+         display: block;
+        position: absolute;
+        left:14px;
+        top: 72px;
+    }
+    
+    .searchline {
+        display: block;
+        position: absolute;
+        left:14px;
+        top: 93px;
+    }
+    
+    .auth {
+        display: block;
+        position: absolute;
+        left:-1140px;
+        top: -76px;
+        
+    }
+    
+    .separator4 {
+        display: none;
+    }
+    .bucketbox {
+        display: block;
+        position: absolute;
+        left: -1300px;
+        top: -77px;
+    }
+    
+/* АДАПТАЦИЯ СЛАЙДЕРА */
+    
+    .swiper-container, .swiper-wrapper {
+        position: absolute;
+        width: 290px;
+        height: 239px;
+        top: 114px;
+    }
+    
+    .swiper-slide {
+        position: relative;
+        top: -100px;
+        width: 290px;
+        height: 239px;
+        background-image:url(../img/bodybox/slidertop/fon.png);
+    }
+    
+    .swiper-slide img {
+        display: none;
+    }
+    
+    
+    .slidetext {
+        position: absolute;
+        width: 290px;
+        height: 239px; 
+        top: 33px;
+        left: 30px;
+        
+    }
+    .slidetext p {
+        display: block;
+        position: absolute;
+        width: 230px;
+        height: 44px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 22px;
+        align-items: center;
+        letter-spacing: 0.05em;
+        
+    }
+    
+    .slidetext span {
+        position: absolute;
+        top: 55px;
+        width: 200px;
+        height: 58px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.05em;
+    }
+    
+    .slidetext button {
+        position: absolute;
+        top: 127px;
+    }
+    
+    
+    /* АДАПТАЦИЯ ПОДБОР ОЧКОВ */
+    
+    .chooseglaces {
+        position: absolute;
+        width: 290px;
+        height: 318px;
+        top: 374px;
+        left: 14px;
+    }
+    
+    .chooseglaces img {
+        top: 26px;
+        left: 30px;
+        width: 142px;
+        height: 53px;
+        
+    }
+    
+    .chooseglaces p {
+        height: 20px;
+        width: 130px;
+        top: 109px;
+        left: 30px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .chooseglaces span {
+        top: 146px;
+        left: 30px;
+        width: 220px;
+        height: 76px;
+        font-weight: 100;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: 0.05em;
+    }
+    
+    .chooseglaces button {
+        top: 242px;
+        left: 30px;
+        
+    }
+    
+/* АДАПТАЦИЯ ПОПУЛЯРНЫХ ТОВАРОВ */
+    
+    .sliderpopularthings {
+        position: absolute;
+        width: 290px;
+        height: 318px;
+        top: 722px;
+        left: 14px;
+    }
+
+    
+    
+    .acuvue, .bulgari, .davidoffurban2 {
+        display: none;
+    }
+    
+    
+    .thingpicture {
+        width: 290px;
+        height: 318px;
+    }
+    
+    .thingpicture img {
+        width: 220px;
+        height: 220px;
+    }
+    
+    
+    .thingname p {
+        left: -10px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    
+    .thingcost {
+        left: -100px;
+    }
+    
+    .statthing {
+        left: 100px;
+    }
+    
+    .buttonthing {
+        left: 155px;
+    }
+    
+    .new1 p {
+        position: absolute;
+        
+        left: -105px;
+    }
+    
+/* АДАПТАЦИЯ АКЦИЙ */
+    
+    .promo {
+        position: absolute;
+        left: 14px;
+        top: 1256px;
+        width: 290px;
+        height: 205px;
+        
+    }
+    
+    .promo a {
+        width: 96px;
+        height: 15px;
+        left: 200px;
+        top: 8px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .promohead p {
+        position: absolute;
+        font-style: normal;
+        left: 0px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+
+    }
+    
+    .promoaction1 {
+        position: absolute;
+        width: 290px;
+        height: 205px;
+    }
+    
+    .promoaction1 img {
+        width: 290px;
+        height: 205px;
+    }
+    
+    .promoname {
+        width: 290px;
+        height: 84px;
+        top: 120px;
+    }
+    
+    .promoname p {
+        left: 15px;
+        top: 10px;
+        width: 210px;
+        height: 15px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    .promoname span {
+        top: 20px;
+        width: 250px;
+        height: 14px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 14px;
+        
+    }
+    
+    .promoaction1 a {
+        left: 0px;
+        top: 47px;
+    }
+    
+    
+    .promoaction2 {
+        display: none;
+    }
+ 
+    /* АДАПТАЦИЯ О КОМПАНИИ */
+    
+    .aboutcompany {
+        display: block;
+        position: absolute;
+        top: 1557px;
+        left: 14px;
+        width: 290px;
+        height: 440px;
+    }
+    
+    .aboutcompany h4 {
+        top: 25px;
+        left: 15px;
+        width: 110px;
+        height: 22px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+    .aboutcompany p {
+        left: 15px;
+        top: 65px;
+        width: 260px;
+        height: 321px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        overflow: hidden
+    }
+    
+    .aboutimage {
+        display: none;
+    }
+    
+    .aboutcompany a {
+        left: 15px;
+        top: 401px;
+    }
+    
+    /* АДАПТАЦИЯ ЛОГО */
+    .footerlogo {
+        left: 80px;
+        top: 1820px;
+        width: 145px;
+        height: 39px;
+        
+    }
+    
+    .footerlogo img {
+        width: 145px;
+        height: 39px;
+    }
+    
+/* АДАПТАЦИЯ НАИГАЦИИ */
+    
+    .footernavbar {
+        position: absolute;
+        width: 300px;
+        left: 25px;
+        top: 1900px;
+    }
+    
+    .footernavi li {
+        display: block;
+        text-align: center;
+        padding-bottom: 12px;
+        padding-top: 12px;
+        border-bottom: 1px solid #F2F2F2;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .footernavi li:last-child {
+        border: none;
+    }
+    
+    
+    .companyinfo, .shops, .news {
+        display: none;
+    }
+    
+    
+    
+/* АДАПТАЦИЯ ТЕЛЕФОНА ДЛЯ СВЯЗИ */
+    
+    .contactinfo {
+        position: absolute;
+        left: 20px;
+        top: 2270px;
+        text-align: center;
+    }
+    
+    .contacttag p {
+        display: none;
+    }
+    
+    .phonenumber2 p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+/* АДАПТАЦИЯ СОЦСЕТЕЙ */
+    
+    .socialnetworks {
+        display: none;
+    }
+    
+    .socialicons {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 50px;
+        left: 0px;
+    }
+    
+    .instagramicon {
+        left: 100px;
+        top: 2320px;
+    }
+    
+    .twittericon {
+        left: 130px;
+        top: 2320px;
+    }
+    
+    .vkicon {
+        left: 160px;
+        top: 2320px;
+    }
+    
+    .useraccepment {
+        width: 290px;
+        height: 35px;
+        top: 2410px;
+        left: 15px;
+    }
+    
+    .useraccepment p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    
+    .useraccepment p {
+        display: none;
+    }
+    
+    
+}
+
+    
+
+
+
+
